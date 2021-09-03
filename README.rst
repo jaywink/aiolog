@@ -1,8 +1,12 @@
 aiolog
 ======
 Asynchronous handlers for standard python logging library.
-Currently telegram (requires ``aiohttp``)
-and smtp (via ``aiosmtplib``) handlers are available.
+
+Currently Matrix, Telegram and SMTP handlers are available.
+
+Extra requirements depending on handler:
+* Matrix, Telegram - ``aiohttp``
+* SMTP - ``aiosmtplib``
 
 
 Installation
